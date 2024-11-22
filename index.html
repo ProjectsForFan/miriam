@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>You're Amazing!</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f3e5f5;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            text-align: center;
+        }
+        .heart {
+            font-size: 100px;
+            color: #ff4081;
+            animation: pulse 1s infinite alternate;
+        }
+        .message {
+            font-size: 24px;
+            color: #7b1fa2;
+            margin-top: 20px;
+        }
+        @keyframes pulse {
+            from { transform: scale(1); }
+            to { transform: scale(1.2); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="heart">❤️</div>
+        <div class="message">Miriam you're an amazing person!</div>
+    </div>
+</body>
+</html>
